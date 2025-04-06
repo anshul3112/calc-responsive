@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#box{
+    background-color: rgb(11, 11, 34);
+    border: 0.2rem solid rgb(54, 49, 97);
+    height: 60%;
+    width: 25%;
+}
+.input{
+    height: 10%;
+    width: 100%;
+}
+#input{
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    outline: none;
+}
+.keys{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 17.5%;
+}
+
+.digit{
+    align-items: center;
+}
+
+button{
+    border-radius: 50%;
+    width: 18%;
+    height: 80%;
+    margin: 4% 2% 2% 2%;
+    border: 1px solid gray;
+    cursor: pointer;        /* Makes it feel clickable */
+    transition: 0.2s ease;
+    font-size: 60%;
+}
+
+
